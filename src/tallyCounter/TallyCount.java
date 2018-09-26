@@ -23,4 +23,18 @@ public class TallyCount
 	{
 		count++;
 	}
+	public void reset()
+	{
+		count = 0;
+	}
+	public int getCount()
+	{
+		int c = count;
+		return c;
+	}
+	public void unclick()
+	{
+		count--;
+	}
 }
+
