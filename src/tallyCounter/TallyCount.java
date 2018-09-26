@@ -23,14 +23,18 @@ public class TallyCount
 	{
 		count++;
 	}
+	public int click(int numClick)
+	{
+		count+=numClick;
+		return count;
+	}
 	public void reset()
 	{
 		count = 0;
 	}
 	public int getCount()
 	{
-		int c = count;
-		return c;
+		return count;
 	}
 	public void unclick()
 	{
